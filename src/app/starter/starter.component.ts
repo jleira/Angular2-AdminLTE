@@ -1,7 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
-  selector: 'app-starter',
+  selector: 'app-root',
   templateUrl: './starter.component.html',
   styleUrls: ['./starter.component.css']
 })
@@ -14,7 +14,7 @@ export class StarterComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     // add the the body classes
-    this.body.classList.add('skin-blue');
+    this.body.classList.add('skin-red');
     this.body.classList.add('sidebar-mini');
   }
 
